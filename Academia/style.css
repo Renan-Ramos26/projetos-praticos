@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #F8A5C2, #EC1E79);
+  color: white;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+header.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.btn-whatsapp {
+  background-color: #32F7C4;
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.modalidades ul li {
+  background: rgba(0, 0, 0, 0.2);
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  border-radius: 10px;
+}
+
+.redes a {
+  display: block;
+  margin: 0.5rem 0;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.7rem;
+  border-radius: 8px;
+}
+
+.localizacao a {
+  color: #32F7C4;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+  margin-top: 2rem;
+}
